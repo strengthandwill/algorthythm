@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9E62FF491B9BCA0F0071805D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF481B9BCA0F0071805D /* AppDelegate.swift */; };
-		9E62FF4B1B9BCA0F0071805D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF4A1B9BCA0F0071805D /* ViewController.swift */; };
+		9E62FF4B1B9BCA0F0071805D /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF4A1B9BCA0F0071805D /* PlaylistMasterViewController.swift */; };
 		9E62FF4E1B9BCA0F0071805D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E62FF4C1B9BCA0F0071805D /* Main.storyboard */; };
 		9E62FF501B9BCA0F0071805D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E62FF4F1B9BCA0F0071805D /* Images.xcassets */; };
 		9E62FF531B9BCA0F0071805D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E62FF511B9BCA0F0071805D /* LaunchScreen.xib */; };
 		9E62FF5F1B9BCA0F0071805D /* AlgorthythmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF5E1B9BCA0F0071805D /* AlgorthythmTests.swift */; };
+		9E62FF691B9BDA4E0071805D /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF681B9BDA4E0071805D /* PlaylistDetailViewController.swift */; };
+		9E62FF6B1B9BEACD0071805D /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF6A1B9BEACD0071805D /* MusicLibrary.swift */; };
+		9E62FF6D1B9BEBEE0071805D /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E62FF6C1B9BEBED0071805D /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		9E62FF431B9BCA0F0071805D /* Algorthythm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorthythm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E62FF471B9BCA0F0071805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E62FF481B9BCA0F0071805D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E62FF4A1B9BCA0F0071805D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E62FF4A1B9BCA0F0071805D /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		9E62FF4D1B9BCA0F0071805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E62FF4F1B9BCA0F0071805D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9E62FF521B9BCA0F0071805D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9E62FF581B9BCA0F0071805D /* AlgorthythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorthythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E62FF5D1B9BCA0F0071805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E62FF5E1B9BCA0F0071805D /* AlgorthythmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorthythmTests.swift; sourceTree = "<group>"; };
+		9E62FF681B9BDA4E0071805D /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		9E62FF6A1B9BEACD0071805D /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
+		9E62FF6C1B9BEBED0071805D /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				9E62FF481B9BCA0F0071805D /* AppDelegate.swift */,
-				9E62FF4A1B9BCA0F0071805D /* ViewController.swift */,
+				9E62FF4A1B9BCA0F0071805D /* PlaylistMasterViewController.swift */,
+				9E62FF681B9BDA4E0071805D /* PlaylistDetailViewController.swift */,
+				9E62FF6A1B9BEACD0071805D /* MusicLibrary.swift */,
+				9E62FF6C1B9BEBED0071805D /* Playlist.swift */,
 				9E62FF4C1B9BCA0F0071805D /* Main.storyboard */,
 				9E62FF4F1B9BCA0F0071805D /* Images.xcassets */,
 				9E62FF511B9BCA0F0071805D /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E62FF4B1B9BCA0F0071805D /* ViewController.swift in Sources */,
+				9E62FF691B9BDA4E0071805D /* PlaylistDetailViewController.swift in Sources */,
+				9E62FF4B1B9BCA0F0071805D /* PlaylistMasterViewController.swift in Sources */,
 				9E62FF491B9BCA0F0071805D /* AppDelegate.swift in Sources */,
+				9E62FF6B1B9BEACD0071805D /* MusicLibrary.swift in Sources */,
+				9E62FF6D1B9BEBEE0071805D /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +353,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorthythm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,8 +365,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorthythm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -369,6 +385,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = AlgorthythmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorthythm.app/Algorthythm";
@@ -384,6 +401,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = AlgorthythmTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorthythm.app/Algorthythm";
@@ -409,6 +427,7 @@
 				9E62FF641B9BCA0F0071805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E62FF651B9BCA0F0071805D /* Build configuration list for PBXNativeTarget "AlgorthythmTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +436,7 @@
 				9E62FF671B9BCA0F0071805D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
