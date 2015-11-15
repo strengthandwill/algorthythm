@@ -23,11 +23,12 @@ class PlaylistDetailViewController: UIViewController {
         super.viewDidLoad()
         if let playlist = self.playlist {
             playlistCoverImage.image = playlist.largeIcon
+            playlistDescription.text = playlist.getRandomDescription()
             playlistCoverImage.backgroundColor = playlist.backgroundColor
             playlistTitle.text = playlist.title
             playlistArtist0.text = playlist.artists[0]
             playlistArtist1.text = playlist.artists[1]
-            playlistArtist1.text = playlist.artists[1]
+            playlistArtist2.text = playlist.artists[2]
         }
     }
 

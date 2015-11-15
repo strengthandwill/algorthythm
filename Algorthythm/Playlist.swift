@@ -11,7 +11,7 @@ import UIKit
 
 struct Playlist {
     var title: String?
-    var description: String?
+    var description: [String]
     var icon: UIImage?
     var largeIcon: UIImage?
     var artists: [String] = []
@@ -21,7 +21,7 @@ struct Playlist {
         let musicLibrary = MusicLibrary().library
         let playlistDictionary = musicLibrary[index]
         title = playlistDictionary["title"] as! String!
-        description = playlistDictionary["description"] as! String!
+        description = playlistDictionary["description"] as! [String]
         let iconName = playlistDictionary["icon"] as! String!
         icon = UIImage(named: iconName)
         
@@ -40,5 +40,10 @@ struct Playlist {
         let blue = colorDictionay["blue"]!
         let alpha = colorDictionay["alpha"]!
         return UIColor(red: red/255.0, green: green/255.0, blue: blue/255.0, alpha: alpha)
+    }
+    
+    func getRandomDescription() -> String {
+        let random = Int(arc4random_uniform(UInt32(description.count)))
+        return description[random]
     }
 }
