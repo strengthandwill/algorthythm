@@ -20,17 +20,17 @@ struct Playlist {
     init(index: Int) {
         let musicLibrary = MusicLibrary().library
         let playlistDictionary = musicLibrary[index]
-        title = playlistDictionary["title"] as String!
-        description = playlistDictionary["description"] as String!
-        let iconName = playlistDictionary["icon"] as String!
+        title = playlistDictionary["title"] as! String!
+        description = playlistDictionary["description"] as! String!
+        let iconName = playlistDictionary["icon"] as! String!
         icon = UIImage(named: iconName)
         
-        let largeIconName = playlistDictionary["largeIcon"] as String!
+        let largeIconName = playlistDictionary["largeIcon"] as! String!
         largeIcon = UIImage(named: largeIconName)
         
-        artists += playlistDictionary["artists"] as [String]
+        artists += playlistDictionary["artists"] as! [String]
         
-        let colorsDictionary = playlistDictionary["backgroundColor"] as [String: CGFloat]
+        let colorsDictionary = playlistDictionary["backgroundColor"] as! [String: CGFloat]
         backgroundColor = rgbColorFromDictionary(colorsDictionary)
     }
     
