@@ -28,8 +28,8 @@
                     <rect key="frame" x="240" y="0.0" width="240" height="240"/>
                     <color key="backgroundColor" red="0.96862745100000003" green="0.79607843140000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fun Facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-Xl-HLo">
-                    <rect key="frame" x="197" y="228" width="85" height="24"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cool Random Facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-Xl-HLo">
+                    <rect key="frame" x="154" y="228" width="172" height="24"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
                     <nil key="highlightedColor"/>
                 </label>

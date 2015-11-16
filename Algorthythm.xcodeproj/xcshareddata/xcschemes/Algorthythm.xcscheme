@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9E62FF421B9BCA0F0071805D"
-               BuildableName = "Fun Facts.app"
+               BuildableName = "Facts.app"
                BlueprintName = "Algorthythm"
                ReferencedContainer = "container:Algorthythm.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E62FF421B9BCA0F0071805D"
-            BuildableName = "Fun Facts.app"
+            BuildableName = "Facts.app"
             BlueprintName = "Algorthythm"
             ReferencedContainer = "container:Algorthythm.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E62FF421B9BCA0F0071805D"
-            BuildableName = "Fun Facts.app"
+            BuildableName = "Facts.app"
             BlueprintName = "Algorthythm"
             ReferencedContainer = "container:Algorthythm.xcodeproj">
          </BuildableReference>
@@ -99,7 +99,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9E62FF421B9BCA0F0071805D"
-            BuildableName = "Fun Facts.app"
+            BuildableName = "Facts.app"
             BlueprintName = "Algorthythm"
             ReferencedContainer = "container:Algorthythm.xcodeproj">
          </BuildableReference>

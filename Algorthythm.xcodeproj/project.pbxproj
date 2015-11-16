@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9E62FF431B9BCA0F0071805D /* Fun Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Facts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E62FF431B9BCA0F0071805D /* Facts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E62FF471B9BCA0F0071805D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E62FF481B9BCA0F0071805D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E62FF4A1B9BCA0F0071805D /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		9E62FF441B9BCA0F0071805D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E62FF431B9BCA0F0071805D /* Fun Facts.app */,
+				9E62FF431B9BCA0F0071805D /* Facts.app */,
 				9E62FF581B9BCA0F0071805D /* AlgorthythmTests.xctest */,
 			);
 			name = Products;
@@ -138,7 +138,7 @@
 			);
 			name = Algorthythm;
 			productName = Algorthythm;
-			productReference = 9E62FF431B9BCA0F0071805D /* Fun Facts.app */;
+			productReference = 9E62FF431B9BCA0F0071805D /* Facts.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9E62FF571B9BCA0F0071805D /* AlgorthythmTests */ = {
@@ -306,10 +306,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "Fun Facts";
+				PRODUCT_NAME = Facts;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -345,9 +345,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "Fun Facts";
+				PRODUCT_NAME = Facts;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -358,10 +358,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorthythm/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.algomized.funfacts;
-				PRODUCT_NAME = "Fun Facts";
+				PRODUCT_BUNDLE_IDENTIFIER = com.algomized.coolrandomfacts;
+				PRODUCT_NAME = Facts;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -371,10 +371,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Algorthythm/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.algomized.funfacts;
-				PRODUCT_NAME = "Fun Facts";
+				PRODUCT_BUNDLE_IDENTIFIER = com.algomized.coolrandomfacts;
+				PRODUCT_NAME = Facts;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -392,11 +392,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = AlgorthythmTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algomized.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorthythm.app/Algorthythm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facts.app/Facts";
 			};
 			name = Debug;
 		};
@@ -409,11 +409,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = AlgorthythmTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.algomized.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Algorthythm.app/Algorthythm";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Facts.app/Facts";
 			};
 			name = Release;
 		};

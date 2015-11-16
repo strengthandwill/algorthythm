@@ -9,7 +9,7 @@
         <!--Category-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="PlaylistMasterViewController" customModule="Algorthythm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="PlaylistMasterViewController" customModule="Facts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="649" y="368"/>
         </scene>
-        <!--Fun Facts-->
+        <!--Facts-->
         <scene sceneID="kMT-oD-qJN">
             <objects>
-                <viewController id="2q7-96-5Yv" customClass="PlaylistDetailViewController" customModule="Algorthythm" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2q7-96-5Yv" customClass="PlaylistDetailViewController" customModule="Facts" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Db-D4-huk"/>
                         <viewControllerLayoutGuide type="bottom" id="ncO-kZ-wTz"/>
@@ -227,7 +227,7 @@
                             <constraint firstItem="uxk-Ly-Dhd" firstAttribute="leading" secondItem="bjY-6Z-Y0R" secondAttribute="leading" id="rrM-pZ-YI4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Fun Facts" id="GH6-Tb-Adg"/>
+                    <navigationItem key="navigationItem" title="Facts" id="GH6-Tb-Adg"/>
                     <connections>
                         <outlet property="playlistArtist0" destination="8ZK-t8-29q" id="0Py-0w-Jgy"/>
                         <outlet property="playlistArtist1" destination="m3M-Kc-qMc" id="0Cz-g4-Hc5"/>
