@@ -1,4 +1,4 @@
-# Algorthythm
+# Cool Random Facts
 IOS Master Detail screen demo app
 
 <img src="https://github.com/strengthandwill/algorthythm/blob/master/Algorthythm/Images.xcassets/screenshot1.imageset/screenshot1.png" height="480" />
